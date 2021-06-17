@@ -1,0 +1,118 @@
+body {
+    font-family: 'Akaya Kanadaka', cursive;
+    background-color: lightskyblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(#10e1fd)    ;
+    background: linear-gradient(90deg, rgb(0, 194, 253) 0%, rgba(9, 231, 206, 1) 35%, rgba(35, 88, 232, 1) 100%);
+    z-index: 9;
+    margin: 20px;
+    padding: 40px 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 10;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.menu a:hover {
+    color: darkorange;
+    background-color: black;
+}
+
+#about {
+    max-width: 500px;
+    align-content: center;
+    text-align: center;
+    margin: 50px auto;
+    background: orange;
+}
+
+#videos {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+#videos iframe {
+    margin: 10px 10px;
+}
+#works{
+    display: inline-block;  
+    text-align: center;
+    align-content: center;
+}
+.card{
+    display: inline-block;
+    margin: 30px 30px;
+    text-align: center;
+}
+.card a:hover{
+    color: yellow;
+    background: red;
+}
+.container{
+    background-color: lightskyblue;
+}
+.HTML{
+    width: 80%;
+    background-color: aqua;
+}
+.CSS{
+    width: 76%;
+    background-color: aqua;
+}.JS{
+    width: 51%;
+    background-color: aqua;
+}
+#skill{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+    background-color: crimson;
+    height: 150px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+ display: list-item;
+    font-size: 20px;
+}
+#contact a:hover{
+    background-color: lightblue;
+    color: crimson;
+}
+
+
+
+
+
+
+
